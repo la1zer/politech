@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    background-color: rgb(153, 125, 204)
+
+}
+h1{
+    font-size: 28x ;
+    color: #333;
+}
+p, ul {
+    font-size: 18px;
+    line-height: 1.8;
+
+}
+ol + li{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #f72c2c;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container {
+    display: grid;
+    place-items: center;
+}
+button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+a{
+    color: #000000;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(189, 117, 238);
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    background-color: rgb(87, 50, 129);
+  }
+  .container {
+    display: flex;
+  }
+   
+  .column {
+    flex: 1;
+  }
+  img {
+    max-width: 75%;
+    height: auto;
+}
